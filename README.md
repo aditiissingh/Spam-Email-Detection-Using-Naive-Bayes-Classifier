@@ -71,6 +71,6 @@ The project outputs the following metrics:
 - **Accuracy of the model on the test data.**
 - **Classification report indicating precision, recall, and F1-score for each class.**
 - **Confusion matrix showing the number of correct and incorrect predictions.**
-- 
+  
 ## Conclusion
 This project demonstrates the implementation of a spam email detection system using machine learning techniques, achieving high accuracy rates through data preprocessing, model training, and hyperparameter tuning.
