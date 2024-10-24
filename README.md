@@ -42,32 +42,35 @@ Data Importing: The project begins by importing the necessary libraries and load
 
 Data Preprocessing: The text data is cleaned and prepared for analysis. This involves:
 
-Converting text to lowercase
-Removing special characters and numbers
-Stemming the words
-Removing common stopwords
+- **Converting text to lowercase**
+- **Removing special characters and numbers**
+- **Stemming the words**
+- **Removing common stopwords**
+  
 Model Training:
 
-The cleaned text data is split into features (X) and labels (y).
-The dataset is further divided into training and testing sets.
-A TF-IDF vectorizer is used to convert the text data into numerical feature vectors.
-A Multinomial Naive Bayes classifier is trained on the training data.
+- **The cleaned text data is split into features (X) and labels (y).**
+- **The dataset is further divided into training and testing sets.**
+- **A TF-IDF vectorizer is used to convert the text data into numerical feature vectors.**
+- **A Multinomial Naive Bayes classifier is trained on the training data.**
+  
 Model Evaluation:
+- **The model's accuracy is evaluated on the test data.**
+- **A classification report and confusion matrix are displayed for detailed performance metrics.**
+- **Hyperparameter Tuning: The model is further improved using GridSearchCV to find the best hyperparameter values.**
 
-The model's accuracy is evaluated on the test data.
-A classification report and confusion matrix are displayed for detailed performance metrics.
-Hyperparameter Tuning: The model is further improved using GridSearchCV to find the best hyperparameter values.
-
-Execution Steps
-Open Google Colab.
-Copy and paste the project code into a new notebook.
-Ensure the spam.csv file is correctly placed in your Google Drive.
-Run each code cell sequentially to execute the project.
-Results
+## Execution Steps
+- **Open Google Colab.**
+- **Copy and paste the project code into a new notebook.**
+- **Ensure the spam.csv file is correctly placed in your Google Drive.**
+- **Run each code cell sequentially to execute the project.**
+  
+## Results
 The project outputs the following metrics:
 
-Accuracy of the model on the test data.
-Classification report indicating precision, recall, and F1-score for each class.
-Confusion matrix showing the number of correct and incorrect predictions.
-Conclusion
+- **Accuracy of the model on the test data.**
+- **Classification report indicating precision, recall, and F1-score for each class.**
+- **Confusion matrix showing the number of correct and incorrect predictions.**
+- 
+## Conclusion
 This project demonstrates the implementation of a spam email detection system using machine learning techniques, achieving high accuracy rates through data preprocessing, model training, and hyperparameter tuning.
