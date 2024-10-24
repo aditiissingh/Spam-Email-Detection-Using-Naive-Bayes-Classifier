@@ -4,15 +4,15 @@ This project implements a spam email detection system using natural language pro
 
 Prerequisites
 To run this project, you need to have the following software installed:
-	Python 3.x
-	Google Colab (for cloud-based execution)
+Python 3.x
+Google Colab (for cloud-based execution)
   
-	Libraries:
-	pandas
-	numpy
-	re
-	nltk
-	scikit-learn
+Libraries:
+pandas
+numpy
+re
+nltk
+scikit-learn
 
 Dataset
 The dataset used for this project is spam.csv, which contains labeled email messages categorized as spam or ham. The kaggle link for the same is: https://www.kaggle.com/code/mfaisalqureshi/email-spam-detection-98-accuracy/input
@@ -23,11 +23,11 @@ You can upload the dataset in your Google Drive. Ensure that the dataset is in t
 Accessing Google Drive
 To access the dataset stored in your Google Drive while using Google Colab, you need to mount your Google Drive as follows:
 Import the drive module from Google Colab:
-	from google.colab import drive
+from google.colab import drive
 Mount your Google Drive:
-	drive.mount('/content/drive')
+drive.mount('/content/drive')
 Specify the file path to the dataset:
-	file_path = '/content/drive/MyDrive/spam.csv'
+file_path = '/content/drive/MyDrive/spam.csv'
 
 Project Structure
 Data Importing: The project begins by importing the necessary libraries and loading the dataset from Google Drive.
