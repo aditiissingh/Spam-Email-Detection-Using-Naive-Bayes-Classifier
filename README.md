@@ -36,7 +36,8 @@ To access the dataset stored in your Google Drive while using Google Colab, you 
    drive.mount('/content/drive')
 3. Specify the file path to the dataset:
    file_path = '/content/drive/MyDrive/spam.csv'
-Project Structure
+   
+## Project Structure
 Data Importing: The project begins by importing the necessary libraries and loading the dataset from Google Drive.
 
 Data Preprocessing: The text data is cleaned and prepared for analysis. This involves:
